@@ -10,7 +10,7 @@ public class PackageProblem {
 	 */
 	public static int packageProblem(int n,int W ,int[] weightArr,int[] rewardArr) {
 		//根据状态的大小来创建dp数组的大小并初始化
-		int[][] dpArr= new int[n+1][W+1];
+		int[][] dpArr= new int[n][W+1];
 //		for (int i = 0; i < dpArr[0].length; i++) {dpArr[0][i]=0;}
 //		for (int i = 0; i < dpArr.length; i++) {dpArr[i][0]=0;}
 		dpArr[0][0]=0;
@@ -27,6 +27,6 @@ public class PackageProblem {
 				
 			}
 		}
-		return dpArr[n][W];
+		return dpArr[n-1][W];
 	}
 }
