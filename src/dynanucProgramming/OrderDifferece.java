@@ -30,12 +30,12 @@ public class OrderDifferece {
 				if (num>i) {
 					dp[i]=dp[i];
 				}else {
-					dp[i]=Math.max(dp[i], dp[i-num]);
+					dp[i]=Math.max(dp[i], dp[i-num]+num);
 				}
 			}
 		}
-		System.out.println(dp[target]);
-		return dp[target]*2-sum;
+//		System.out.println(dp[target]);
+		return Math.abs(dp[target]*2-sum);
 	}
 	public static void main(String[] args) {
 		int[] orderList=new int[] {10,20,30,40,50};
