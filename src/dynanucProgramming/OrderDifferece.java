@@ -26,12 +26,12 @@ public class OrderDifferece {
 			}
 		}
 		for(int num:orderL) {
-			for (int i = target; i >=0; --i) {
-				if (num>i) {
-					dp[i]=dp[i];
-				}else {
+			for (int i = target; i >=num; --i) {
+//				if (num>i) {
+//					dp[i]=dp[i];
+//				}else {
 					dp[i]=Math.max(dp[i], dp[i-num]+num);
-				}
+//				}
 			}
 		}
 //		System.out.println(dp[target]);

@@ -17,12 +17,12 @@ public class equalDiff {
 		dp[0]=true;
 		//for state..
 		for(int num:varArr) {
-			for (int j=target;j>=0;--j) {
-				if (num>j) {	
-					dp[j]=dp[j];					
-				}else {
+			for (int j=target;j>=num;--j) {
+//				if (num>j) {	
+//					dp[j]=dp[j];					
+//				}else {
 					dp[j]=dp[j]||dp[j-num];
-				}
+//				}
 			}
 		}
 		return dp[target];

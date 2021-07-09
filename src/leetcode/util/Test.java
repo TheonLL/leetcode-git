@@ -12,7 +12,6 @@ public class Test {
 		System.out.println(string.substring(1,3));
 		System.out.println(newIntList.length);
 		System.out.println(Arrays.toString(newIntList));
-		
 	}
 
 }
