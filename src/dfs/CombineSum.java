@@ -10,9 +10,7 @@ public class CombineSum {
 	找出 candidates 中所有可以使数字和为 target 的组合。
 	candidates 中的数字可以无限制重复被选取。
 	 */
-	public static List<List<Integer>> resultlist=new ArrayList<List<Integer>>();
-	
-
+	public static List<List<Integer>> resultlist=new ArrayList<List<Integer>>();	
 	
 	//backtrack
 	public static void backtrack(int[] nums,int target,List<Integer> subList,int maxdeepth,int startIndex) {

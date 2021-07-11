@@ -2,6 +2,13 @@ package leetcode.util;
 
 import java.awt.print.Printable;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Set;
+
+import javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction;
+import javax.xml.soap.Node;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 
@@ -16,7 +23,5 @@ public class Test {
 		System.out.println(newIntList.length);
 		System.out.println(Arrays.toString(newIntList));
 	}
-	
-
 
 }
