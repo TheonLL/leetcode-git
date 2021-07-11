@@ -42,7 +42,6 @@ public class slideWindow {
 		int subStrLen=Integer.MAX_VALUE;
 		while (right<s.length()) {
 			//将初始窗口的右边扩大边界，并将字符存入windowMap中 j
-
 			char c=s.charAt(right);
 			// 窗口右边范围扩大
 			right++;
@@ -151,8 +150,7 @@ public class slideWindow {
 		int right=0;
 		int valid=0;
 		
-		ArrayList<Integer> resultList=new ArrayList<Integer>();
-		
+		ArrayList<Integer> resultList=new ArrayList<Integer>();		
 		//判断是否遍历晚字符串
 		while (right<s.length()) {
 			char c=s.charAt(right);

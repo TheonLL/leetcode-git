@@ -8,7 +8,7 @@ public class SubSetsUnUnique {
 	
 	public static List<List<Integer>> resultList=new ArrayList<List<Integer>>();
 		public static void main(String[] args) {
-		int[] nums=new int[] {1,2,2};
+		int[] nums=new int[] {1,2,2,3};
 		Arrays.sort(nums);
 		List<Integer> subsetList=new ArrayList<>();
 		backtrack(subsetList, 0, nums);

@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CombineSum {
+public class CombineSumTwo {
 	/*
-	给定一个无重复元素的数组 candidates 和一个目标数 target ，
+	给定一个数组 candidates 和一个目标数 target ，
 	找出 candidates 中所有可以使数字和为 target 的组合。
-	candidates 中的数字可以无限制重复被选取。
+	candidates 中的数字只能被选一次被选取。
 	 */
 	public static List<List<Integer>> resultlist=new ArrayList<List<Integer>>();
 	
@@ -25,8 +25,11 @@ public class CombineSum {
 			if (maxdeepth==subList.size()) {
 				continue;
 			}
+			if (i>startIndex&&nums[i]==nums[i-1]) {
+				continue;
+			}
 			subList.add(nums[i]);			
-			backtrack(nums, target, subList,maxdeepth,i);
+			backtrack(nums, target, subList,maxdeepth,i+1);
 			subList.remove(subList.size()-1);
 		}
 	}
@@ -39,8 +42,8 @@ public class CombineSum {
 	}
 	
 	public static void main(String[] args) {
-		int[] nums=new int[] {2,3,6,7};
-		combineSum(nums, 7);
+		int[] nums=new int[] {2,5,2,1,2};
+		combineSum(nums, 5);
 		for(List<Integer> list:resultlist) {
 			System.out.println(list.toString());
 		}

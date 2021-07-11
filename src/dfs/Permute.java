@@ -24,7 +24,6 @@ public class Permute {
 			backTrack(nums, subList);
 			subList.remove(subList.size()-1);
 		}
-
 	}
 	public static void main(String[] args) {
 		int[] nums=new int[] {1,2,3};

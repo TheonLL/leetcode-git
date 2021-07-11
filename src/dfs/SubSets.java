@@ -26,18 +26,18 @@ public class SubSets {
 		
 	}
 	public static void backtrack(List<Integer> subsetList,int startIdex,int[] nums) {
-
-
+		//判断是否符合添加要求
+		//向结果中添加
 		resultList.add(new ArrayList<>(subsetList));
-
-		for(int i=startIdex;i<nums.length;++i) {
-			System.out.println(i);
-			
+		//每层的循环开始节点都，由与上层有关
+		for(int i=startIdex;i<nums.length;++i) {	
+//			if (subsetList.contains(nums[i])) {
+//				continue;
+//			}
 			subsetList.add(nums[i]);
 			backtrack(subsetList, i+1, nums);
 			subsetList.remove(subsetList.size()-1);
 		}
-
 	}
 	
 
