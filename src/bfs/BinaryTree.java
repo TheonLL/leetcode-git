@@ -1,5 +1,7 @@
 package bfs;
 
+import bfs.BinaryTree;
+
 public class BinaryTree {
 	   int val;
 	   BinaryTree left;

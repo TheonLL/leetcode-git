@@ -1,5 +1,7 @@
 package treeNode;
 
+import java.awt.print.Printable;
+
 public class TreeNodeDeepth {
 	
 	/*
@@ -9,6 +11,7 @@ public class TreeNodeDeepth {
 	public static int treeDeepth(Tree treeNode) {
 		
 		if(treeNode==null) return 0;
+		System.out.println(treeNode.val);
 		return Math.max(treeDeepth(treeNode.left), treeDeepth(treeNode.right))+1;
 	}
 	

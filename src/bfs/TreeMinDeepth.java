@@ -9,10 +9,11 @@ public class TreeMinDeepth {
 		if (root==null) {return 0;}
 		//create queue store Node
 		Queue<BinaryTree> queue=new LinkedList<BinaryTree>();
-		// create step to record result
-		int step=1;
 		//initial queue
 		queue.offer(root);
+		// create step to record result
+		int step=0;
+
 		//iterate all queue
 		while (queue.size()!=0) {
 			int size=queue.size();
