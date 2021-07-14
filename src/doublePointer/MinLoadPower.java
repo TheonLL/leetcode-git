@@ -8,10 +8,10 @@ public class MinLoadPower {
 		int[] weights=new int[] {1,2,4,7,8};
 		minloadP minload=new minloadP();
 		System.out.println(minload.minLoad(weights, 2));
+		System.out.println(minload.minLoad(weights, 3));
 	}
 
 }
-
 
 class minloadP{
 	
@@ -27,6 +27,7 @@ class minloadP{
 				
 			} else {
 			left=mid+1;
+
 			}
 		}
 		return left;

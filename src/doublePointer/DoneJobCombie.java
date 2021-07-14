@@ -1,20 +1,23 @@
-package dfs;
+package doublePointer;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class DoneJobLimit {
+
+public class DoneJobCombie {
 	public static void main(String[] args) {
 		int[] jobtime=new int[] {1,2,4,7,8};
-		DoneJobLimitSolution doneJobLimit=new DoneJobLimitSolution();
+		DoneJobCombieSolution doneJobLimit=new DoneJobCombieSolution();
 		System.out.println(doneJobLimit.disspathjob(jobtime,2,11));
 	}
 
 }
-class DoneJobLimitSolution{
+
+
+class DoneJobCombieSolution{
 	/*
-	 * 将n个任务分给k个人，每个人的最多工作时长不超过limit，任务i的工时为数组jobtime[i],是否可行
+	 * 将n个任务分给k个人，每个人的最多工作时长不超过limit，任务i的工时为数组jobtime[i];是否可行，可行的话打印所有可能的组合
 	 */
 
 	public boolean disspathjob(int[] jobtime,int k,int limit) {
@@ -52,7 +55,6 @@ class DoneJobLimitSolution{
 			}
 		}
 		jobtime.addLast(currInt);
-		
 		return false;
 	}
 }
