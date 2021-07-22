@@ -6,9 +6,10 @@ public class MinLoadPower {
 	public static void main(String[] args) {
 //		int[] weights=new int[] {1,2,3,4,5,6,7,8,9,10};
 		int[] weights=new int[] {1,2,4,7,8};
-		minloadP minload=new minloadP();
-		System.out.println(minload.minLoad(weights, 2));
-		System.out.println(minload.minLoad(weights, 3));
+		System.out.println(Arrays.stream(weights).max().getAsInt());
+//		minloadP minload=new minloadP();
+//		System.out.println(minload.minLoad(weights, 2));
+//		System.out.println(minload.minLoad(weights, 3));
 	}
 
 }
