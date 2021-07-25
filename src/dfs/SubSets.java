@@ -37,6 +37,7 @@ public class SubSets {
 			subsetList.add(nums[i]);
 			backtrack(subsetList, i+1, nums);
 			subsetList.remove(subsetList.size()-1);
+
 		}
 	}
 	

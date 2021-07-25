@@ -18,8 +18,6 @@ public class MinHeap {
 		// 用优先列队设置最大堆
 		PriorityQueue<Integer> maxHeap=new PriorityQueue<>(len,(a,b)->b-a);
 		
-		
-		
 	}
 
 }
