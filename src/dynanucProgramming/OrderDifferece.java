@@ -1,5 +1,7 @@
 package dynanucProgramming;
 
+
+
 public class OrderDifferece {
 	
 	
@@ -42,3 +44,23 @@ public class OrderDifferece {
 		System.out.println(oderDiff(orderList));
 }
 }
+
+interface Person{
+	  public static final int a=10;
+	  //JDK1.8
+	    default void sayHello(){
+	        System.out.println("Hello World");
+	    }
+	    public void say();
+	}
+abstract class Persons{
+	  public abstract void say();
+	  public void eat(){};
+	  public static void et(){
+		  System.out.println("=================");
+	  };
+	}
+
+
+
+
