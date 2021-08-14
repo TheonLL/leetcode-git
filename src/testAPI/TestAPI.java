@@ -1,32 +1,52 @@
 package testAPI;
 
-public class TestAPI {
-	public static void main(String[] args) {
-//		int a=2^4^1^3;
-//		int b=1^3^2^4;
-//		System.out.println(a);
-//		System.out.println(b);
-		String s = "abcdefg=";
-		System.out.println(s+5);
-//		System.out.println(s.length());
-//		Test1 test=new Test1();
-//		test.run();
-		
-		
-		
-		
-	}
+import java.awt.print.Printable;
+import java.util.HashMap;
+import java.util.IdentityHashMap;
 
+public class TestAPI {
+    static ThreadLocal<String> localVar = new ThreadLocal<>();
+
+    static void print(String str) {
+        //打印当前线程中本地内存中本地变量的值
+        System.out.println(str + " :" + localVar.get());
+        //清除本地内存中的本地变量
+        localVar.remove();
+    }
+
+    public static void main(String[] args) {
+        Thread t1  = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                //设置线程1中本地变量的值
+                localVar.set("localVar1");
+                //调用打印方法
+                print("thread1");
+                //打印本地变量
+                System.out.println("after remove : " + localVar.get());
+            }
+        });
+
+        Thread t2  = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                //设置线程1中本地变量的值
+                localVar.set("localVar2");
+                //调用打印方法
+                print("thread2");
+                //打印本地变量
+                System.out.println("after remove : " + localVar.get());
+            }
+        });
+
+        t1.start();
+        t2.start();
+    }
+
+
+						
 }
 
 
 
-class Test1 {
-	static int x=10;
-	static {x+=5;}
-	public static void run() //4
-        {
-		System.out.println("x="+x);
-	}
-	static{x/=3;};
-}//9
+
