@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beea55c7-f1fb-45f3-9a36-c8aa22c1e84d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wkzkwxTtp9DcNkStKTA8ESmo9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager" selected="Application.TestHashSet">
+    <configuration name="Combine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.Combine" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataSturt.TestHashSet" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataSturt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestHashSet" />
+        <item itemvalue="Application.Combine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beea55c7-f1fb-45f3-9a36-c8aa22c1e84d" name="Default Changelist" comment="" />
+      <created>1629017521202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629017521202</updated>
+      <workItem from="1629017530503" duration="163000" />
+      <workItem from="1629017735550" duration="4838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="137" key="#Notifications" timestamp="1629018374897">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="517" y="137" key="#Notifications/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629018374897" />
+    <state x="517" y="137" key="#Project_Structure" timestamp="1629017675379">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="517" y="137" key="#Project_Structure/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017675379" />
+    <state x="3281" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1629026749703">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state x="3281" y="270" key="#com.intellij.ide.util.MemberChooser/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026749703" />
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom" timestamp="1629026983561">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1995" height="286" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017851129" />
+    <state width="1867" height="326" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983561" />
+    <state width="1867" height="326" key="GridCell.Tab.0.center" timestamp="1629026983560">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1995" height="286" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017851129" />
+    <state width="1867" height="326" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983560" />
+    <state width="1867" height="326" key="GridCell.Tab.0.left" timestamp="1629026983560">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1995" height="286" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017851128" />
+    <state width="1867" height="326" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983560" />
+    <state width="1867" height="326" key="GridCell.Tab.0.right" timestamp="1629026983560">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1995" height="286" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017851129" />
+    <state width="1867" height="326" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983560" />
+    <state width="1867" height="326" key="GridCell.Tab.1.bottom" timestamp="1629026983561">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.1.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983561" />
+    <state width="1867" height="326" key="GridCell.Tab.1.center" timestamp="1629026983561">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.1.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983561" />
+    <state width="1867" height="326" key="GridCell.Tab.1.left" timestamp="1629026983561">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.1.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983561" />
+    <state width="1867" height="326" key="GridCell.Tab.1.right" timestamp="1629026983561">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state width="1867" height="326" key="GridCell.Tab.1.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026983561" />
+    <state x="2944" y="214" key="SettingsEditor" timestamp="1629026496811">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state x="410" y="120" key="SettingsEditor/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1629017621630" />
+    <state x="2944" y="214" key="SettingsEditor/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026496811" />
+    <state x="3260" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1629026888553">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state x="3260" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026888553" />
+    <state x="2974" y="303" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1629026978408">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state x="2974" y="303" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026978408" />
+    <state x="3099" y="110" key="search.everywhere.popup" timestamp="1629026875029">
+      <screen x="2560" y="103" width="1920" height="1042" />
+    </state>
+    <state x="3099" y="110" key="search.everywhere.popup/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629026875029" />
+  </component>
+</project>

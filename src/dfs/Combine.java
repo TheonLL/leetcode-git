@@ -11,8 +11,7 @@ public class Combine {
 	public static void backTrack(int n,int k,List<Integer> sublist,int startIndex) {
 		if (n<k) {
 			return ;
-		}else if (n==k) {
-			
+		}else if (n==k) {			
 			return ;
 		}else {
 			if (sublist.size()==k) {

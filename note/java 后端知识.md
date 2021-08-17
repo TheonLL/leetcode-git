@@ -1041,7 +1041,20 @@ javabean赋值转化
 
 ####  atomikos实现分布式事务
 
+1. 单数据源实现事务管理
 
+   使用@Transactional
+
+2. 多个数据源实现分布式事务-夸库
+
+   对于数据库层面的分布式事务而言，JTA（Java Transaction API，XA的JAVA实现方案）是一个不错的解决方案，通常JTA需要应用服务器的支持，但在查阅SpringBoot的文档时发现，它推荐了Atomikos和 Bitronix两种无需服务器支持的分布式事务组件，在这两个组件中，Atomikos更受大家的好评，所以我选择使用Atomikos
+
+   1. 通过atomikos组件实现
+   2. ![image-20210815202230476](java 后端知识.assets/image-20210815202230476.png)
+
+3. 多源分布式事务-跨服务
+
+   ![image-20210815203318204](java 后端知识.assets/image-20210815203318204.png)
 
 ###  1.注解
 
@@ -1382,9 +1395,24 @@ monitor
 
 ##  5 Mybatis
 
+持久层框架,一般用Mybatis-plus或者mybatisGenenrator
 
+####  Mybatis实现数据库操作的三种方式:
 
+- 使用Mybatis Genenrator 或者Mybatis-plus,对于一些简单单表查询、删除等的操作直接实现了接口;
 
+- 使用xml方式实现-动态sql、多表关联
+
+  - 动态sql:根据传入的条件去动态的改变sql语句；
+
+- 使用注解-简单两三行语句
+
+  - @select
+  - @Delete
+  - @Insert
+  - @Update
+
+  
 
 
 
@@ -1498,6 +1526,8 @@ monitor
      - **无状态和可扩展性：**Tokens存储在客户端。完全无状态，可扩展。我们的负载均衡器可以将用户传递到任意服务器，因为在任何地方都没有状态或会话信息。
 
        **安全：**Token不是Cookie。（The token, not a cookie.）每次请求的时候Token都会被发送。而且，由于没有Cookie被发送，还有助于防止CSRF攻击。即使在你的实现中将token存储到客户端的Cookie中，这个Cookie也只是一种存储机制，而非身份认证机制。没有基于会话的信息可以操作，因为我们没有会话!
+
+
 
 
 
