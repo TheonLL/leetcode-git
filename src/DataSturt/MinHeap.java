@@ -1,4 +1,4 @@
-package DaaSturt;
+package DataSturt;
 
 import java.util.PriorityQueue;
 

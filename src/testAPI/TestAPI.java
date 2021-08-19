@@ -15,6 +15,7 @@ public class TestAPI {
     }
 
     public static void main(String[] args) {
+        double  v = 0.2;
         Thread t1  = new Thread(new Runnable() {
             @Override
             public void run() {
