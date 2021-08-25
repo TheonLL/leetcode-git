@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class scanner {
 	public static void main(String[] args) throws Exception {
 		TestScanner testScanner=new TestScanner();
-		testScanner.scanner04();
+		testScanner.scanner01();
 	}
 
 }
@@ -26,10 +26,15 @@ class TestScanner{
 		BufferedReader bReader=new BufferedReader(new InputStreamReader(System.in));
 		String str=null;
 		while ((str=bReader.readLine())!=null) {
-			String[] strArrString=str.split(" ");
-			if (strArrString.length==2) {
-				int a=Integer.parseInt(strArrString[0]);
-				int b=Integer.parseInt(strArrString[1]);
+			 char[] chars=str.toCharArray();
+			/*String[] strArrString=str.split(" ");*/
+			if (chars.length==3) {
+/*				int a=Integer.parseInt(strArrString[0]);
+				int b=Integer.parseInt(strArrString[1]);*/
+/*				int a=strArrString[0].toCharArray()[0];
+				int b=strArrString[1].toCharArray()[0];*/
+				int a =chars[0];
+				int b=chars[2];
 				System.out.println(a+b);
 				
 			}
