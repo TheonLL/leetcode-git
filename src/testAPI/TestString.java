@@ -11,10 +11,9 @@ import java.util.Arrays;
 public class TestString {
 
     public static void main(String[] args) {
-        String s="abcde";
-        char[] CharArray=new char[]{0,0,0,0,0,0};
-        s.getChars(0,4,CharArray,0 );
-        System.out.println(Arrays.toString(CharArray));
+        String s="0123456789";
+        System.out.println(s.substring(1));
+
     }
 
 }
