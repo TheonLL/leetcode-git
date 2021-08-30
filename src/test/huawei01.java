@@ -8,7 +8,10 @@ import java.util.Arrays;
 
 public class huawei01 {
 public static void main(String[] args) throws Exception{
+	System.out.println("00000");
+	System.out.println(1111111);
 	solutionHuaWei01 solutionHuaWei01=new solutionHuaWei01();
+	System.out.println(222222222);
 	System.out.println(solutionHuaWei01.findMax());
 }
 }

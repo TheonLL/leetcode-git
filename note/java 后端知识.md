@@ -653,7 +653,7 @@ jdk1.8之前底层是数组+链表结构；1.8之后，数组+链表/红黑树�
 3. hashTable的初始容量是11，当容量不够的时候，每次变成原来两倍加一；hashMap的初始值容量为16，每次扩容变成原有的两倍；
 4. HashTable继承自Dirctionary，HashMap继承自AbstractMap
 
-#### 7.currentHashMap和hashtable的区别
+#### 7.concurrentHashMap和hashtable的区别
 
 1. 从底层结构上，concurrentHashMap，采用分段数组+链表/红黑二叉树，hashTable采用数组+链表
 2. 线程安全实现上，1.7，对每一个分段数组进行上上锁，1.8而是直接用Node数组+链表+红黑树的数据结构来实现，并发控制使用synchronized和CAS来操作；hashTable是直接对整个数组上锁，效率低；
