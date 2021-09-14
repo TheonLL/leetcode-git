@@ -69,8 +69,8 @@ byte、short、int、long、float、double、char、boolean八大基本数据类
 | short   | 2    | 16   | 0      |      | Short     | null           |
 | int     | 4    | 32   | 0      |      | Integer   | null           |
 | long    | 8    | 64   | 0L     |      | Long      | null           |
-| float   | 4    | 32   | 0f     |      | Float     | null           |
-| double  | 8    | 64   | 0d     |      | Double    | null           |
+| float   | 4    | 32   | 0.0f   |      | Float     | null           |
+| double  | 8    | 64   | 0.0d   |      | Double    | null           |
 | char    | 2    | 16   | u0000  |      | Character | null           |
 | boolean |      | 1    | false  |      | Boolean   | null           |
 

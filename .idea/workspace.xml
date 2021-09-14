@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="beea55c7-f1fb-45f3-9a36-c8aa22c1e84d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/testAPI/TestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/testAPI/TestString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/testAPI/TestString.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/note/14_Java 秋招必备.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/14_Java 秋招必备.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testAPI/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testAPI/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testAPI/TestString.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TestString">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySort.BubbleSort" />
+  <component name="RunManager" selected="Application.Ipfind">
+    <configuration name="BuyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="huawei.BuyList" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraySort.*" />
+          <option name="PATTERN" value="huawei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ipfind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Ipfind" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scanner.scanner" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Scanner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ipfind" />
+        <item itemvalue="Application.BuyList" />
         <item itemvalue="Application.TestString" />
         <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.huawei01" />
-        <item itemvalue="Application.scanner" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +140,8 @@
       <workItem from="1630239707304" duration="257000" />
       <workItem from="1630287087894" duration="11443000" />
       <workItem from="1630380465138" duration="4290000" />
+      <workItem from="1630549147724" duration="8830000" />
+      <workItem from="1630824093813" duration="10640000" />
     </task>
     <servers />
   </component>
@@ -159,42 +161,42 @@
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
     <state x="3281" y="270" key="#com.intellij.ide.util.MemberChooser/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1629277901421" />
-    <state width="1867" height="187" key="GridCell.Tab.0.bottom" timestamp="1630417825187">
+    <state width="1995" height="113" key="GridCell.Tab.0.bottom" timestamp="1630896310646">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1995" height="113" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630896310646" />
+    <state width="1867" height="344" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630896057613" />
+    <state width="1995" height="113" key="GridCell.Tab.0.center" timestamp="1630896310646">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1995" height="113" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630896310646" />
+    <state width="1867" height="344" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630896057613" />
+    <state width="1995" height="113" key="GridCell.Tab.0.left" timestamp="1630896310645">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1995" height="113" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630896310645" />
+    <state width="1867" height="344" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630896057613" />
+    <state width="1995" height="113" key="GridCell.Tab.0.right" timestamp="1630896310646">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state width="1995" height="113" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630896310646" />
+    <state width="1867" height="344" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630896057613" />
+    <state width="1867" height="326" key="GridCell.Tab.1.bottom" timestamp="1630565642261">
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
-    <state width="1995" height="153" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630140143710" />
-    <state width="1867" height="187" key="GridCell.Tab.0.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630417825187" />
-    <state width="1867" height="187" key="GridCell.Tab.0.center" timestamp="1630417825187">
+    <state width="1867" height="326" key="GridCell.Tab.1.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630565642261" />
+    <state width="1867" height="326" key="GridCell.Tab.1.center" timestamp="1630565642261">
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
-    <state width="1995" height="153" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630140143709" />
-    <state width="1867" height="187" key="GridCell.Tab.0.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630417825187" />
-    <state width="1867" height="187" key="GridCell.Tab.0.left" timestamp="1630417825187">
+    <state width="1867" height="326" key="GridCell.Tab.1.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630565642261" />
+    <state width="1867" height="326" key="GridCell.Tab.1.left" timestamp="1630565642261">
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
-    <state width="1995" height="153" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630140143709" />
-    <state width="1867" height="187" key="GridCell.Tab.0.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630417825187" />
-    <state width="1867" height="187" key="GridCell.Tab.0.right" timestamp="1630417825187">
+    <state width="1867" height="326" key="GridCell.Tab.1.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630565642261" />
+    <state width="1867" height="326" key="GridCell.Tab.1.right" timestamp="1630565642261">
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
-    <state width="1995" height="153" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@0.0.2048.1122" timestamp="1630140143710" />
-    <state width="1867" height="187" key="GridCell.Tab.0.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630417825187" />
-    <state width="1867" height="326" key="GridCell.Tab.1.bottom" timestamp="1630239965554">
-      <screen x="2560" y="103" width="1920" height="1042" />
-    </state>
-    <state width="1867" height="326" key="GridCell.Tab.1.bottom/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630239965554" />
-    <state width="1867" height="326" key="GridCell.Tab.1.center" timestamp="1630239965554">
-      <screen x="2560" y="103" width="1920" height="1042" />
-    </state>
-    <state width="1867" height="326" key="GridCell.Tab.1.center/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630239965554" />
-    <state width="1867" height="326" key="GridCell.Tab.1.left" timestamp="1630239965554">
-      <screen x="2560" y="103" width="1920" height="1042" />
-    </state>
-    <state width="1867" height="326" key="GridCell.Tab.1.left/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630239965554" />
-    <state width="1867" height="326" key="GridCell.Tab.1.right" timestamp="1630239965554">
-      <screen x="2560" y="103" width="1920" height="1042" />
-    </state>
-    <state width="1867" height="326" key="GridCell.Tab.1.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630239965554" />
+    <state width="1867" height="326" key="GridCell.Tab.1.right/2560.103.1920.1042/0.0.2048.1122@2560.103.1920.1042" timestamp="1630565642261" />
     <state x="2944" y="214" key="SettingsEditor" timestamp="1629603602025">
       <screen x="2560" y="103" width="1920" height="1042" />
     </state>
