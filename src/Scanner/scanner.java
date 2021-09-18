@@ -2,12 +2,15 @@ package Scanner;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class scanner {
 	public static void main(String[] args) throws Exception {
 		TestScanner testScanner=new TestScanner();
+		System.out.println(8888);
 		testScanner.scanner01();
 	}
 
@@ -25,6 +28,7 @@ class TestScanner{
 	public void scanner01() throws Exception{
 		BufferedReader bReader=new BufferedReader(new InputStreamReader(System.in));
 		String str=null;
+		List<int[]> a=new ArrayList<>();
 		while ((str=bReader.readLine())!=null) {
 			 char[] chars=str.toCharArray();
 			/*String[] strArrString=str.split(" ");*/
